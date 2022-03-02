@@ -7349,11 +7349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Practise\\Practise\\Practise.csproj",
+      "projectUniqueName": "C:\\Users\\ACER\\Desktop\\Self-join---Create-Delete\\Practise\\Practise.csproj",
       "projectName": "Practise",
-      "projectPath": "C:\\Users\\ACER\\Desktop\\Practise\\Practise\\Practise.csproj",
+      "projectPath": "C:\\Users\\ACER\\Desktop\\Self-join---Create-Delete\\Practise\\Practise.csproj",
       "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ACER\\Desktop\\Practise\\Practise\\obj\\",
+      "outputPath": "C:\\Users\\ACER\\Desktop\\Self-join---Create-Delete\\Practise\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tZfxVbcDVf57xCeIbo8U1VVlDzVnmaefruRIz3UQ2cjrEEuPS+eptJ2sCQqgIvM6uW75Pk/F8Z4TUXRQvlgvrw==",
+  "dgSpecHash": "DvOBij/dFRu4b3IDgLgXq5hJlH1pcHXeHE05B93SlIvf+mB17fg3pVGO7y7kp9ZhMt/8RY/l+vN59ITOd4sdJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ACER\\Desktop\\Practise\\Practise\\Practise.csproj",
+  "projectFilePath": "C:\\Users\\ACER\\Desktop\\Self-join---Create-Delete\\Practise\\Practise.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ACER\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

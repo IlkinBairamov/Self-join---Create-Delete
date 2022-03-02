@@ -142,6 +142,11 @@ namespace Practise.Areas.AdminPanel.Controllers
                     item.IsDeleted = true;
                 }
             }
+            string pathDelete = Path.Combine(Constants.ImageFolderPath, category.Image);
+            if (System.IO.File.Exists(pathDelete))
+            {
+                System.IO.File.Delete(pathDelete);
+            }
 
             _dbContext.Categories.Remove(category);
             await _dbContext.SaveChangesAsync();
