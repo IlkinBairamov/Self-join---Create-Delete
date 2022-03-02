@@ -1,0 +1,36 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="col-lg-6">
+    <div class="card mb-4">
+        <div class="card-header">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h4 class="fs-17 font-weight-600 mb-0">@Model.Name</h4>
+                    @if (Model.IsMain)
+                    {
+                        <h6>Children:</h6>
+                        <ul>
+                            @foreach (var item in Model.Children)
+                            {
+                                <li>
+                                    @item.Name
+                                </li>
+                            }
+                        </ul>
+                        <img  src="~/assets/images/@Model.Image"/>
+                    }
+                    else
+                    {
+                        <h6> Parent: @Model.Parent.Name</h6>
+                    }
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+<a asp-action="Index" class="btn btn-primary">Cancel</a>
